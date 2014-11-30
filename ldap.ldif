@@ -1,0 +1,88 @@
+dn: dc=galicia,dc=isf,dc=es
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: esf
+dc: galicia
+structuralObjectClass: organization
+entryUUID: 2c0a55d0-0538-1034-9d76-1790ae61dc59
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141120193547Z
+entryCSN: 20141120193547.913600Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141120193547Z
+
+dn: cn=admin,dc=galicia,dc=isf,dc=es
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e1NTSEF9MmZNeklHLzJwZDRUMDdVdS9lMUZqakxNOVZkeEdUazQ=
+structuralObjectClass: organizationalRole
+entryUUID: 2c0cd4fe-0538-1034-9d77-1790ae61dc59
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141120193547Z
+entryCSN: 20141120193547.929988Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141120193547Z
+
+dn: ou=xente,dc=galicia,dc=isf,dc=es
+dc: dc=xente,dc=galicia,dc=isf,dc=es
+ou: xente
+objectClass: dcObject
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 01b6fd02-0cf8-1034-9c84-65e3fe0afb6c
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141130161638Z
+description: Nodo con toda a informacion sobre a xente da organizacion
+entryCSN: 20141130162700.619879Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141130162700Z
+
+dn: ou=areas,dc=galicia,dc=isf,dc=es
+ou: areas
+objectClass: dcObject
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 6b736a14-0cf8-1034-9c88-65e3fe0afb6c
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141130161935Z
+dc: dc=areas,dc=galicia,dc=isf,dc=es
+description: Zonas nas que se divide a asociacion
+entryCSN: 20141130162407.910756Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141130162407Z
+
+dn: ou=sectores,dc=galicia,dc=isf,dc=es
+ou: sectores
+objectClass: dcObject
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 7b72caae-0cf8-1034-9c8a-65e3fe0afb6c
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141130162002Z
+dc: dc=sectores,dc=galicia,dc=isf,dc=es
+description: Distintos sectores nos que se estructura da organizacion
+entryCSN: 20141130162821.354602Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141130162821Z
+
+dn: ou=orga,dc=galicia,dc=isf,dc=es
+ou: orga
+objectClass: dcObject
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 82d494bc-0cf8-1034-9c8c-65e3fe0afb6c
+creatorsName: cn=admin,dc=galicia,dc=isf,dc=es
+createTimestamp: 20141130162015Z
+dc: dc=orga,dc=galicia,dc=isf,dc=es
+description: Nodo con todo o relacionado coa estructura da organizacion
+entryCSN: 20141130162436.722353Z#000000#000#000000
+modifiersName: cn=admin,dc=galicia,dc=isf,dc=es
+modifyTimestamp: 20141130162436Z
+
