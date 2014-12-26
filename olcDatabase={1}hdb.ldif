@@ -1,0 +1,31 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 1f5bb216
+dn: olcDatabase={1}hdb
+objectClass: olcDatabaseConfig
+objectClass: olcHdbConfig
+olcDatabase: {1}hdb
+olcDbDirectory: /var/lib/ldap
+olcSuffix: dc=galicia,dc=isf,dc=es
+olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymou
+ s auth by dn="cn=admin,dc=galicia,dc=isf,dc=es" write by * none
+olcAccess: {1}to dn.base="cn=grupoFerrol,ou=areas,dc=galicia,dc=isf,dc=es" by group.exact="cn=grupoLugo,ou=areas,dc=galicia,dc=isf,dc=es" none by * read
+olcAccess: {1}to dn.base="cn=grupoLugo,ou=areas,dc=galicia,dc=isf,dc=es" by group.exact="cn=grupoFerrol,ou=areas,dc=galicia,dc=isf,dc=es" none by * read
+olcAccess: {2}to dn.base="" by * read
+olcAccess: {3}to * by self write by dn="cn=admin,dc=galicia,dc=isf,dc=es" writ
+ e by * read
+olcLastMod: TRUE
+olcRootDN: cn=admin,dc=galicia,dc=isf,dc=es
+olcRootPW:: e1NTSEF9MmZNeklHLzJwZDRUMDdVdS9lMUZqakxNOVZkeEdUazQ=
+olcDbCheckpoint: 512 30
+olcDbConfig: {0}set_cachesize 0 2097152 0
+olcDbConfig: {1}set_lk_max_objects 1500
+olcDbConfig: {2}set_lk_max_locks 1500
+olcDbConfig: {3}set_lk_max_lockers 1500
+olcDbIndex: objectClass eq
+structuralObjectClass: olcHdbConfig
+entryUUID: 2bdeecce-0538-1034-9511-075bec90d457
+creatorsName: cn=admin,cn=config
+createTimestamp: 20141120193547Z
+entryCSN: 20141120193547.629137Z#000000#000#000000
+modifiersName: cn=admin,cn=config
+modifyTimestamp: 20141120193547Z
