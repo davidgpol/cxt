@@ -9,9 +9,9 @@ olcSuffix: dc=galicia,dc=isf,dc=es
 olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymou
  s auth by dn="cn=admin,dc=galicia,dc=isf,dc=es" write by * none
 olcAccess: {1}to dn.base="cn=grupoFerrol,ou=areas,dc=galicia,dc=isf,dc=es" by group.exact="cn=grupoLugo,ou=areas,dc=galicia,dc=isf,dc=es" none by * read
-olcAccess: {1}to dn.base="cn=grupoLugo,ou=areas,dc=galicia,dc=isf,dc=es" by group.exact="cn=grupoFerrol,ou=areas,dc=galicia,dc=isf,dc=es" none by * read
-olcAccess: {2}to dn.base="" by * read
-olcAccess: {3}to * by self write by dn="cn=admin,dc=galicia,dc=isf,dc=es" writ
+olcAccess: {2}to dn.base="cn=grupoLugo,ou=areas,dc=galicia,dc=isf,dc=es" by group.exact="cn=grupoFerrol,ou=areas,dc=galicia,dc=isf,dc=es" none by * read
+olcAccess: {3}to dn.base="" by * read
+olcAccess: {4}to * by self write by dn="cn=admin,dc=galicia,dc=isf,dc=es" writ
  e by * read
 olcLastMod: TRUE
 olcRootDN: cn=admin,dc=galicia,dc=isf,dc=es
